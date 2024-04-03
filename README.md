@@ -13,7 +13,7 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 
 ![Codigo ejercicio 1](./screenshots/solucion_ejercicio_1.png)
 
-#### 1.2-Output
+#### 1.2-screenshot
 
 ![Output ejercicio 1](./screenshots/output_ejercicios_uno.jpg)
 
@@ -23,7 +23,7 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 
 ![Codigo ejercicio 2](./screenshots/solucion_ejercicio_2.png)
 
-#### 2.2-Output
+#### 2.2-screenshot
 
 ![Output ejercicio 2](./screenshots/output_ejercicios_dos.jpg)
 
@@ -33,7 +33,7 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 
 ![Codigo ejercicio 3](./screenshots/solucion_ejercicio_3.png)
 
-#### 3.2-Output
+#### 3.2-screenshot
 
 ![Output ejercicio 3](./screenshots/output_ejercicios_tres.jpg)
 
@@ -43,7 +43,7 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 
 ![Codigo ejercicio 4](./screenshots/solucion_ejercicio_4.png)
 
-#### 4.2-Output
+#### 4.2-screenshot
 
 ![Output ejercicio 4](./screenshots/output_ejercicios_cuatro.jpg)
 
@@ -53,7 +53,7 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 
 ![Codigo ejercicio 5](./screenshots/solucion_ejercicio_5.png)
 
-#### 5.2-Output
+#### 5.2-screenshot
 
 ![Output ejercicio 5](./screenshots/output_ejercicios_cinco.jpg)
 
