@@ -1,6 +1,6 @@
 # Contenido
 
-El presente repositorio contiene el código sql solución al desafío número 2 del módulo 5 llamado **Fundamentos de bases de datos relaciones**. Los requisitos del desafío evaluado los muestro en la siguiente imagen:
+Repositorio con el código sql solución al desafío **Fundamentos de bases de datos relaciones**. Los requisitos del desafío evaluado los muestro en la siguiente imagen:
 
 ![Requisitos Hoja Uno y Dos](./screenshots/requisitos_uno_dos.jpg)
 ![Requisitos Hojas Tres](./screenshots/requisitos_tres.webp)
@@ -63,6 +63,6 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 
 ##### Forma 3
 
-Si previa revisión de la tabla agrupada se observa que solo hay un día con la mayor cantidad de personas entonces la consulta se puede simplificar de este modo:
+Otra manera de hacerlo si pensamos que solo hay un dia con la mayor cantidad de personas:
 
 ![Codigo ejercicio 5 Forma 3](./screenshots/solucion_ejercicio_5_forma_3.png)
