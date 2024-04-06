@@ -1,6 +1,6 @@
 # Contenido
 
-Repositorio con el código sql solución al desafío **Fundamentos de bases de datos relaciones**. Los requisitos del desafío evaluado los muestro en la siguiente imagen:
+Desafío **Fundamentos de bases de datos relaciones**. 
 
 ![Requisitos Hoja Uno y Dos](./screenshots/requisitos_uno_dos.jpg)
 ![Requisitos Hojas Tres](./screenshots/requisitos_tres.webp)
@@ -13,9 +13,9 @@ Repositorio con el código sql solución al desafío **Fundamentos de bases de d
 
 ![Codigo ejercicio 1](./screenshots/solucion_ejercicio_1.png)
 
-#### 1.2-screenshot
+#### 1.2-respuesta
 
-![Output ejercicio 1](./screenshots/output_ejercicios_uno.jpg)
+![Output ejercicio 1](./screenshots/repuesta_ejercicios_1.jpg)
 
 ### 2. ¿Cuántos inscritos hay en total?
 
@@ -23,9 +23,9 @@ Repositorio con el código sql solución al desafío **Fundamentos de bases de d
 
 ![Codigo ejercicio 2](./screenshots/solucion_ejercicio_2.png)
 
-#### 2.2-screenshot
+#### 2.2-respuesta
 
-![Output ejercicio 2](./screenshots/output_ejercicios_dos.jpg)
+![Output ejercicio 2](./screenshots/repuesta_ejercicios_2.jpg)
 
 ### 3. ¿Cuál o cuáles son los registros de mayor antigüedad?
 
@@ -33,9 +33,9 @@ Repositorio con el código sql solución al desafío **Fundamentos de bases de d
 
 ![Codigo ejercicio 3](./screenshots/solucion_ejercicio_3.png)
 
-#### 3.2-screenshot
+#### 3.2-respuesta
 
-![Output ejercicio 3](./screenshots/output_ejercicios_tres.jpg)
+![Output ejercicio 3](./screenshots/repuesta_ejercicios_3.jpg)
 
 ### 4. ¿Cuántos inscritos hay por día? (entendiendo un día como una fecha distinta de ahora en adelante)
 
@@ -43,9 +43,9 @@ Repositorio con el código sql solución al desafío **Fundamentos de bases de d
 
 ![Codigo ejercicio 4](./screenshots/solucion_ejercicio_4.png)
 
-#### 4.2-screenshot
+#### 4.2-respuesta
 
-![Output ejercicio 4](./screenshots/output_ejercicios_cuatro.jpg)
+![Output ejercicio 4](./screenshots/repuesta_ejercicios_4.jpg)
 
 ### 5. ¿Qué día se inscribieron la mayor cantidad de personas y cuántas personas se inscribieron en ese día?
 
@@ -53,9 +53,9 @@ Repositorio con el código sql solución al desafío **Fundamentos de bases de d
 
 ![Codigo ejercicio 5](./screenshots/solucion_ejercicio_5.png)
 
-#### 5.2-screenshot
+#### 5.2-respuesta
 
-![Output ejercicio 5](./screenshots/output_ejercicios_cinco.jpg)
+![Output ejercicio 5](./screenshots/repuesta_ejercicios_5.jpg)
 
 ##### Forma 2
 
