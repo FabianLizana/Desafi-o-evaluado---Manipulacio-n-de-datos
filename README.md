@@ -15,7 +15,7 @@ Desafío **Fundamentos de bases de datos relaciones**.
 
 #### 1.2-respuesta
 
-![Output ejercicio 1](./screenshots/repuesta_ejercicios_1.jpg)
+![Output ejercicio 1](./screenshots/respuesta_ejercicios_1.jpg)
 
 ### 2. ¿Cuántos inscritos hay en total?
 
@@ -25,7 +25,7 @@ Desafío **Fundamentos de bases de datos relaciones**.
 
 #### 2.2-respuesta
 
-![Output ejercicio 2](./screenshots/repuesta_ejercicios_2.jpg)
+![Output ejercicio 2](./screenshots/respuesta_ejercicios_2.jpg)
 
 ### 3. ¿Cuál o cuáles son los registros de mayor antigüedad?
 
@@ -35,7 +35,7 @@ Desafío **Fundamentos de bases de datos relaciones**.
 
 #### 3.2-respuesta
 
-![Output ejercicio 3](./screenshots/repuesta_ejercicios_3.jpg)
+![Output ejercicio 3](./screenshots/respuesta_ejercicios_3.jpg)
 
 ### 4. ¿Cuántos inscritos hay por día? (entendiendo un día como una fecha distinta de ahora en adelante)
 
@@ -45,7 +45,7 @@ Desafío **Fundamentos de bases de datos relaciones**.
 
 #### 4.2-respuesta
 
-![Output ejercicio 4](./screenshots/repuesta_ejercicios_4.jpg)
+![Output ejercicio 4](./screenshots/respuesta_ejercicios_4.jpg)
 
 ### 5. ¿Qué día se inscribieron la mayor cantidad de personas y cuántas personas se inscribieron en ese día?
 
@@ -55,7 +55,7 @@ Desafío **Fundamentos de bases de datos relaciones**.
 
 #### 5.2-respuesta
 
-![Output ejercicio 5](./screenshots/repuesta_ejercicios_5.jpg)
+![Output ejercicio 5](./screenshots/respuesta_ejercicios_5.jpg)
 
 ##### Forma 2
 
