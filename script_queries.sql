@@ -86,115 +86,45 @@ VALUES
 COMMIT;
 
 --1. ¿Cuántos registros hay?
-SELECT
-    COUNT(*)
-FROM
-    inscritos;
+SELECT COUNT(*)
+FROM inscritos;
 
 --2. ¿Cuántos inscritos hay en total?
-SELECT
-    SUM(cantidad) AS total_inscritos
-FROM
-    inscritos;
+SELECT SUM(cantidad) AS total_inscritos
+FROM inscritos;
 
 --3. ¿Cuál o cuáles son los registros de mayor antigüedad?
-SELECT
-    *
-FROM
-    inscritos
-WHERE
-    fecha IN (
-        SELECT
-            MIN(fecha)
-        FROM
-            inscritos
-    );
+SELECT * FROM inscritos
+WHERE fecha IN ( SELECT MIN(fecha) FROM inscritos );
 
 /*4. ¿Cuántos inscritos hay por día? (entendiendo un día como una fecha distinta de
-ahora en adelante)
- */
-SELECT
-    fecha,
-    SUM(cantidad)
-FROM
-    inscritos
-GROUP BY
-    fecha
-ORDER BY
-    fecha;
+ahora en adelante)*/
+SELECT fecha, SUM(cantidad)
+FROM inscritos
+GROUP BY fecha
+ORDER BY fecha;
 
-/*
-5. ¿Qué día se inscribieron la mayor cantidad de personas y cuántas personas se
-inscribieron en ese día?
- */
-SELECT
-    fecha,
-    inscritos_por_dia
-FROM
-    (
-        SELECT
-            fecha,
-            SUM(cantidad) AS inscritos_por_dia
-        FROM
-            inscritos
-        GROUP BY
-            fecha
-        ORDER BY
-            fecha
-    ) agrupacion
-WHERE
-    inscritos_por_dia = (
-        SELECT
-            MAX(inscritos_por_dia)
-        FROM
-            (
-                SELECT
-                    fecha,
-                    SUM(cantidad) AS inscritos_por_dia
-                FROM
-                    inscritos
-                GROUP BY
-                    fecha
-                ORDER BY
-                    fecha
-            ) AS agrupacion
-    );
+/*5. ¿Qué día se inscribieron la mayor cantidad de personas y cuántas personas se
+inscribieron en ese día?*/
+SELECT fecha, inscritos_por_dia
+FROM ( SELECT fecha, SUM(cantidad) AS inscritos_por_dia
+FROM inscritos
+GROUP BY fecha
+ORDER BY fecha) agrupacion
+WHERE inscritos_por_dia = ( SELECT MAX(inscritos_por_dia) FROM
+( SELECT fecha, SUM(cantidad) AS inscritos_por_dia
+FROM inscritos GROUP BY fecha ORDER BY fecha) AS agrupacion);
 
 --Forma 2:
-SELECT
-    fecha,
-    SUM(cantidad) AS inscritos_por_dia
-FROM
-    inscritos
-GROUP BY
-    fecha
-HAVING
-    SUM(cantidad) = (
-        SELECT
-            MAX(inscritos_por_dia)
-        FROM
-            (
-                SELECT
-                    fecha,
-                    SUM(cantidad) AS inscritos_por_dia
-                FROM
-                    inscritos
-                GROUP BY
-                    fecha
-                ORDER BY
-                    fecha
-            ) AS agrupado
-    );
+SELECT fecha, SUM(cantidad) AS inscritos_por_dia
+FROM inscritos
+GROUP BY fecha
+HAVING SUM(cantidad) = (
+SELECT MAX(inscritos_por_dia)
+FROM ( SELECT fecha, SUM(cantidad) AS inscritos_por_dia
+FROM inscritos GROUP BY fecha ORDER BY fecha ) AS agrupado );
 
 --Forma 3:
-SELECT
-    fecha,
-    SUM(cantidad) AS inscritos_por_dia
-FROM
-    inscritos
-GROUP BY
-    fecha
-ORDER BY
-    inscritos_por_dia DESC
-LIMIT
-    1;
+SELECT fecha, SUM(cantidad) AS inscritos_por_dia
+FROM inscritos GROUP BY fecha
+ORDER BY inscritos_por_dia DESC LIMIT 1;
